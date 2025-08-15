@@ -1,4 +1,4 @@
-let num = '654321'
+let num = '822344'
 
 
 let vetor = [];
