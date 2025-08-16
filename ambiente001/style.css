@@ -1,31 +1,31 @@
 @charset "UTF-8";
 
 body {
-    background-color: #BF0426;
+  background-color: #bf0426;
 }
 
 section {
-    display: flex;
-    width: 400px;
-    min-height: 200px;
-    background-color: white;
-    border-radius: 10px;
-    margin: auto;
-    justify-content: center;
-    
+  display: flex;
+  width: 400px;
+  min-height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  justify-content: center;
 }
 
 input#botao {
-    width: 70px;
+  width: 70px;
 }
 
-h1, p {
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
+h1,
+p {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 h1 {
-    text-align: center;
-    color: #fff;
+  text-align: center;
+  color: #fff;
 }
