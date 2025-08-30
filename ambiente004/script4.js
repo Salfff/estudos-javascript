@@ -6,13 +6,16 @@ function JSClock() {
   
   let temp = String(hour % 12);
 
+
   if(temp === '0') {
     temp = '12'
   }
 
   temp += (minute < 10 ? ':0' : ':') + minute;
 
+
   temp += (second < 10 ? ':0' : ':') + second; 
+
 
   temp += hour >= 12 ? 'P.M.' : 'A.M.'
   return temp;
