@@ -15,3 +15,20 @@
 
 // console.log(fatorial(4))
 
+function primo(n) { 
+  let divisores = 0;
+  count = 1;
+  while(count <= n) {
+    if(n % count === 0) {
+      divisores++
+    } 
+    count++
+  } 
+  if(divisores != 2) {
+    console.log('Não é primo')
+  } else {
+    console.log('É primo')
+  }
+}
+
+primo(7)
