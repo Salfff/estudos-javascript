@@ -1,0 +1,21 @@
+[{
+  "jogo": "Hollow Knight",
+  "plataforma": {
+    "nome": "Steam",
+    "playersAtivos": 1000000,
+    "maximo": null  
+  },
+  "jogadores": [{
+    "nome": "Salff",
+    "idade": 45,
+    "ativo": true,
+    "jogosBiblioteca": ["Silksong", "little nightmares", "gris"]
+  },
+  {
+    "nome": "Akira",
+    "idade": 105,
+    "ativo": false,
+    "jogosBiblioteca": ["sonic", "Oni"]
+  }
+]
+}]
