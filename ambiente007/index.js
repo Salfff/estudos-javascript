@@ -12,17 +12,26 @@ const arr = [, 'p', 'f']
 const obj = {
   shroom: 's',
   banana: 'b',
-  pepper: 'p'
+  pepper: 'p',
 }
 
-const {shroom: mushroom} = obj
+const {shroom:mushroom, laranja = "aaa" } = obj
 
-const obj2 = {
- parent: {
-  child: 'bb'
- },
+console.log(mushroom)
+console.log(laranja)
+
+// const obj2 = {
+//  parent: {
+//   child: 'bb'
+//  },
+// }
+
+// const {parent: {child}} = obj2
+
+// console.log(child)
+
+function apresentar({nome, idade}) {
+  console.log(`${nome} tem ${idade} anos`)
 }
 
-const {parent: {child}} = obj2
-
-console.log(child)
+apresentar({nome: "Carlos", idade:30})
